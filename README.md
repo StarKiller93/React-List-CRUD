@@ -1,4 +1,4 @@
-## CRUD Приложение [Ссылка на ДЕМО](https://react-list-crud-app.herokuapp.com/).
+## CRUD (Create, Read, Update and Delete) Приложение [Ссылка на ДЕМО](https://react-list-crud-app.herokuapp.com/).
 
 ![Preview Image](screenshot.png)
 
