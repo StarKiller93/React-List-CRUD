@@ -4,10 +4,10 @@ const Contact = () => {
   return (
     <div className="container">
       <div className="py-4">
-        <h1>Contact Page</h1>
+        <h1>Контакт</h1>
         <form>
           <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
+            <label for="exampleInputEmail1">Email</label>
             <input
               type="email"
               class="form-control"
@@ -33,7 +33,7 @@ const Contact = () => {
               id="exampleCheck1"
             />
             <label class="form-check-label" for="exampleCheck1">
-              Check me out
+              Check please
             </label>
           </div>
           <button type="submit" class="btn btn-primary">

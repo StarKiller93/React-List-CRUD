@@ -23,15 +23,23 @@ const Home = () => {
   return (
     <div className="container">
       <div className="py-4">
-        <h1>Home Page</h1>
+        <h1>#Лист</h1>
         <table class="table border shadow">
-          <thead class="thead-dark">
+          <thead class="bg-dark">
             <tr>
-              <th scope="col">#</th>
-              <th scope="col">Name</th>
-              <th scope="col">User Name</th>
-              <th scope="col">Email</th>
-              <th>Action</th>
+              <th className="text-white" scope="col">
+                #
+              </th>
+              <th className="text-white" scope="col">
+                Имя
+              </th>
+              <th className="text-white" scope="col">
+                Логин
+              </th>
+              <th className="text-white" scope="col">
+                Email
+              </th>
+              <th className="text-white">Функция</th>
             </tr>
           </thead>
           <tbody>
@@ -54,6 +62,7 @@ const Home = () => {
                   <Link
                     class="btn btn-danger"
                     onClick={() => deleteUser(user.id)}
+                    to=""
                   >
                     Delete
                   </Link>
