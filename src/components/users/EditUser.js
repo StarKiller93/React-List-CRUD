@@ -36,7 +36,7 @@ const EditUser = () => {
   return (
     <div className="container">
       <div className="w-75 mx-auto shadow p-5">
-        <h2 className="text-center mb-4">Edit A User</h2>
+        <h2 className="text-center mb-4">Редактировать пользователя</h2>
         <form onSubmit={(e) => onSubmit(e)}>
           <div className="form-group">
             <input
@@ -62,7 +62,7 @@ const EditUser = () => {
             <input
               type="email"
               className="form-control form-control-lg"
-              placeholder="Enter Your E-mail Address"
+              placeholder="Введите ваш адрес электронной почты"
               name="email"
               value={email}
               onChange={(e) => onInputChange(e)}
@@ -72,7 +72,8 @@ const EditUser = () => {
             <input
               type="text"
               className="form-control form-control-lg"
-              placeholder="Enter Your Phone Number"
+              placeholder="
+              Введите свой номер телефона"
               name="phone"
               value={phone}
               onChange={(e) => onInputChange(e)}
@@ -88,7 +89,7 @@ const EditUser = () => {
               onChange={(e) => onInputChange(e)}
             />
           </div>
-          <button className="btn btn-warning btn-block">Update User</button>
+          <button className="btn btn-warning btn-block">Обновить</button>
         </form>
       </div>
     </div>
